@@ -9,31 +9,70 @@ body{
 }
 
 header{
-    background-color: #ADD8E6;
+    background-color: #3061E0;
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+
+main{
+    background-color: #3061E0;
+    color: white;
 }
 
 .conteiner{
-    margin: 0,auto;
-    max-width: 1200px; 
+    margin: 0 auto;
+    max-width: 80%;  
 }
 
 .debug{
-    background-color: rgba(255, 0, 0, .2);
     border: 1px solid black;
+
 }
 
-.logo-top{
+.logo{
     display: flex;
-    justify-content: space-between;   
+    justify-content: start;
 }
 
-.link-header{
+.logo.logo-img{
+    width: 200px; 
+    height: 200px;
+}
+
+.top-header{
     display: flex;
+}
+
+.link-nav{
+    display: flex;
+}
+
+
+.link-nav{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 
 }
 
-.header-bottom p{
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+ul li{
+    color: white;
+}
+
+.login-botton{
+    display: flex;
+    justify-content: end;
+}
+
+.top-main p{
     font-size: 1.2rem;
 }
-
-
