@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+header{
+    background-color: #ADD8E6;
+}
+
+.conteiner{
+    margin: 0,auto;
+    max-width: 1200px; 
+}
+
+.debug{
+    background-color: rgba(255, 0, 0, .2);
+    border: 1px solid black;
+}
+
+.logo-top{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.link-header{
+    display: flex;
+
+}
+
+.header-bottom p{
+    font-size: 1.2rem;
+}
+
+
