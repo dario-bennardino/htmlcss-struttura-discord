@@ -9,8 +9,11 @@ body{
 }
 
 header{
-    background-color: #3061E0;
+    background-color: #DAA520;
     height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 main{
@@ -18,22 +21,16 @@ main{
     color: white;
 }
 
-.conteiner{
+.container{
     margin: 0 auto;
     max-width: 1200px;
 }
 
-.debug{
-    border: 1px solid black;
-}
+
 
 .logo{
     height: 40px;
     width: 40px;
-    background-color: red;
-    display: flex;
-    
-    
 }
 
 
@@ -43,15 +40,15 @@ main{
 
 }
 
-.top-header{
-    display: flex;   
-    justify-content: center;
-    align-items: center;
-}
 
 .link-nav{
-    display: flex;
+    list-style: none;
     
+        
+}
+
+.link-nav > li{
+    display: inline;
 }
 
 
@@ -62,4 +59,12 @@ main{
 .section-one{
     background-color: white;
     color: black;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.debug .first-section{
+    background-color: white;
 }
