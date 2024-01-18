@@ -10,10 +10,6 @@ body{
 
 header{
     background-color: #3061E0;
-    display: flex;
-    flex-wrap: wrap;  
-    align-items: center;
-    justify-content: space-around;
     height: 80px;
 }
 
@@ -24,7 +20,7 @@ main{
 
 .conteiner{
     margin: 0 auto;
-    max-width: 80%;  
+    max-width: 1200px;
 }
 
 .debug{
@@ -32,46 +28,36 @@ main{
 }
 
 .logo{
+    height: 40px;
+    width: 40px;
+    background-color: red;
     display: flex;
-    justify-content: start;
+    
+    
 }
 
-.logo.logo-img{
-    width: 200px; 
-    height: 200px;
+
+
+.logo-img{
+    align-items: center;
+
 }
 
 .top-header{
-    display: flex;
+    display: flex;   
 }
 
 .link-nav{
     display: flex;
+    
 }
 
-
-.link-nav{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-
-}
-
-nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-ul li{
-    color: white;
-}
-
-.login-botton{
-    display: flex;
-    justify-content: end;
-}
 
 .top-main p{
     font-size: 1.2rem;
+}
+
+.section-one{
+    background-color: white;
+    color: black;
 }
