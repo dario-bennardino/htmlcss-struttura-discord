@@ -17,8 +17,7 @@ header{
 }
 
 main{
-    background-color: #3061E0;
-    color: white;
+
 }
 
 .container{
@@ -26,18 +25,13 @@ main{
     max-width: 1200px;
 }
 
-
-
 .logo{
     height: 40px;
     width: 40px;
 }
 
-
-
 .logo-img{
     align-items: center;
-
 }
 
 
@@ -52,19 +46,20 @@ main{
 }
 
 
-.top-main p{
-    font-size: 1.2rem;
-}
-
-.section-one{
-    background-color: white;
-    color: black;
-}
-
 .debug{
     border: 1px solid black;
 }
 
-.debug .first-section{
-    background-color: white;
+.first-section{
+    height: 450px;
+    background-color: #03008B;
+    display: flex;
+}
+.rettangolo-rosa{
+    height: 80%;
+    width: 60%;
+    background-color: #EE82EE;
+    margin: auto;
+
+
 }
